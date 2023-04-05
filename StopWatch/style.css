@@ -1,7 +1,22 @@
 .container{
     margin: 100px;
+
     background-color: rgb(147, 148, 145);
     /* align-items: center; */
     text-align: center;
-    font-size: 30px;
+    font-size: 200px;
+    padding: 10%;
+}
+.buttons{
+    
+    padding: 20px;
+    /* background-color: aqua; */
+    display: inline-block;
+    text-align: center;
+}
+.buttons button{
+    width: 100px;
+    height: 40px;
+    size: 40px;
+    
 }
