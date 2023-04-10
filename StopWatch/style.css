@@ -1,11 +1,16 @@
 .container{
     margin: 100px;
-
+    display:block;
     background-color: rgb(147, 148, 145);
     /* align-items: center; */
     text-align: center;
+    flex-wrap: wrap;
     font-size: 200px;
     padding: 10%;
+}
+.box{
+    display:inline-block;;
+    background-color: blanchedalmond;
 }
 .buttons{
     
