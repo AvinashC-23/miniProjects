@@ -1,27 +1,58 @@
+body{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding:0%;
+    background: rgb(177,185,185);
+    background: linear-gradient(90deg, rgba(177,185,185,1) 0%, rgba(240,238,231,1) 100%);
+}
+.modesbox{
+    background-color: rgba(250, 250, 250, 0.31);
+    display: inline-flex;
+    border-radius: 10px;
+    font-size: 30px;
+    justify-content: space-around;
+    padding-right: 40px;
+    letter-spacing: 15px;
+    width: 500px;
+    padding: 20px;
+
+}
 .container{
     margin: 100px;
     display:block;
-    background-color: rgb(147, 148, 145);
-    /* align-items: center; */
+    /* background: rgb(28,139,140); */
+    /* background: linear-gradient(90deg, rgba(28,139,140,0.5970982142857143) 0%, rgba(214,165,59,0.45704219187675066) 100%); */
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    flex-wrap: wrap;
+    border-radius: 10px;
+    /* flex-wrap: wrap; */
     font-size: 200px;
-    padding: 10%;
+    /* padding: 10%; */
 }
 .box{
-    display:inline-block;;
-    background-color: blanchedalmond;
+    display:inline-block;
+    border-radius: 10px;
+    justify-content:space-between;
+    width: 250px;
+    background-color: rgba(250, 250, 250, 0.31);
+    letter-spacing: 5px;
 }
-.buttons{
-    
+.buttons{ 
     padding: 20px;
     /* background-color: aqua; */
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding-right: 20px;
 }
 .buttons button{
     width: 100px;
     height: 40px;
     size: 40px;
-    
+}
+.container span{
+    color: rgb(90, 95, 99);
 }
